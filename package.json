@@ -1,0 +1,22 @@
+{
+  "name": "japanese-reference",
+  "version": "0.0.1",
+  "description": "Japanese grammar reference",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rikuson/japanese-reference.git"
+  },
+  "author": "Rikson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rikuson/japanese-reference/issues"
+  },
+  "homepage": "https://github.com/rikuson/japanese-reference#readme",
+  "dependencies": {
+    "kuromoji": "^0.1.2"
+  }
+}
