@@ -1,21 +1,30 @@
 {
-  "name": "japanese-reference",
-  "version": "0.0.1",
-  "description": "Japanese grammar reference",
-  "main": "index.js",
+  "private": true,
+  "name": "@phenomic/example-react-app-blog",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@phenomic/cli": "^1.0.0",
+    "@phenomic/core": "^1.0.0",
+    "@phenomic/preset-react-app": "^1.0.0",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "react-helmet": "^5.0.0",
+    "react-router": "^3.2.0",
+    "react-topbar-progress-indicator": "^2.0.0",
+    "simple-json-fetch": "^1.0.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "phenomic start",
+    "build": "phenomic build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rikuson/japanese-reference.git"
+  "phenomic": {
+    "presets": [
+      "@phenomic/preset-react-app"
+    ]
   },
-  "author": "Rikson",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/rikuson/japanese-reference/issues"
-  },
-  "homepage": "https://github.com/rikuson/japanese-reference#readme",
+  "title": "A random blog",
+  "twitter": "Phenomic_app",
+  "github": "http://github.com/phenomic/phenomic",
   "dependencies": {
     "kuromoji": "^0.1.2"
   }
